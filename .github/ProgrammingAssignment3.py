@@ -43,7 +43,7 @@ def main():
     primary_choice = input("Choice of sport (football, quidditch, gymnastics):  ").lower().strip()
 
     # User input validation to make sure input matches one of three choices only
-    while primary_choice != "football" and primary_choice and "quidditch" and primary_choice != "gymnastics":
+    while primary_choice != "football" and primary_choice != "quidditch" and primary_choice != "gymnastics":
         primary_choice = input("Please choose between; football, quidditch, gymnastics:  ").lower().strip()
 
     # Will run only when the user chooses the "football" option
